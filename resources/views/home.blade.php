@@ -1,8 +1,9 @@
 <x-layout>
-  <x-slot:heading>
-      Home page
-  </x-slot:heading>
- <h1>Hello from Home page</h1>
+    {{-- This is the heading page --}}
+    <x-slot:heading>
+        Home Page
+    </x-slot:heading>
+    <h1>Hello From Home Page</h1>
 </x-layout>   
 
 
